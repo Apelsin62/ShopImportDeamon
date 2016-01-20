@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/Helpers/MySQL/MySQLStringsKeys.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ImportData/ImportData.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ShopImportDeamon.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/Helpers/MySQL/MySQLStrings.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/Helpers/FileFinder.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/conf/Configure.xml</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ImportData/Parts/ImportStorages.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ImportData/Parts/ImportPricesTypes.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ImportData/ImportDataMain.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/Helpers/MySQL/MySQLPreparedStatement.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ImportData/ImportDataGeneral.java</file>
+            <file>file:/home/mzaytsev/workspace/Java/ShopImportDeamon/src/ShopImportDeamon/ImportData/Parts/ImportItems.java</file>
+        </group>
+    </open-files>
+</project-private>

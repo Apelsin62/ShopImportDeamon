@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+    <FilePaths>
+        <Path>
+            <pathName>WatchedFolder</pathName>
+            <directory>./resources/ImportData/XML/</directory>
+        </Path>
+        <Path>
+            <pathName>BadFolder</pathName>
+            <directory>./resources/ImportData/BAD/</directory>
+        </Path>
+        <Path>
+            <pathName>UsedFolder</pathName>
+            <directory>./resources/ImportData/USED/</directory>
+        </Path>
+        <Path>
+            <pathName>LogFolder</pathName>
+            <directory>./resources/ImportData/LOG/</directory>
+        </Path>
+        <Path>
+            <pathName>MainLogFolder</pathName>
+            <directory>./resources/Logs/</directory>
+        </Path>
+    </FilePaths>
+    <MySQLConnections>
+        <Connection>
+            <connectionsName>ApelsinShopDatabase</connectionsName>
+            <jdbc>jdbc:mysql://localhost:3306/apelsin_shop_new_db</jdbc>
+            <user>root</user>
+            <password></password>
+        </Connection>
+    </MySQLConnections>
+</configurations>

@@ -60,7 +60,7 @@ public class ItemElement {
     private final String itemName;
     private final String article;
     private final String directory;
-    private final String directotyPath;
+    private final String directoryPath;
     private String status;
     private final String type;
     private String pricePer;
@@ -74,7 +74,7 @@ public class ItemElement {
     private final Map<String, Float> pricesValueList = new HashMap<>();
 
     public ItemElement(String id, String itemName, String article,
-            String directory, String directotyPath, String status,
+            String directory, String directoryPath, String status,
             String type, String pricePer, String seviceCenter,
             Integer action, Integer shown, Integer toRemove,
             Float totalAmount, Float minAmount,
@@ -84,7 +84,7 @@ public class ItemElement {
         this.itemName = itemName;
         this.article = article;
         this.directory = directory;
-        this.directotyPath = directotyPath;
+        this.directoryPath = directoryPath;
         this.status = status;
         this.type = type;
         this.pricePer = pricePer;
@@ -105,7 +105,7 @@ public class ItemElement {
         this.itemName = null;
         this.article = null;
         this.directory = null;
-        this.directotyPath = null;
+        this.directoryPath = null;
         this.status = null;
         this.type = null;
         this.pricePer = null;
@@ -173,8 +173,8 @@ public class ItemElement {
         return directory;
     }
 
-    public String getDirectotyPath() {
-        return directotyPath;
+    public String getDirectoryPath() {
+        return directoryPath;
     }
 
     public String getStatus() {

@@ -148,7 +148,7 @@ public class ImportItems extends ImportPart {
                     insertElement.getItemName(),
                     insertElement.getArticle(),
                     insertElement.getDirectory(),
-                    insertElement.getDirectotyPath(),
+                    insertElement.getDirectoryPath(),
                     insertElement.getStatus(),
                     insertElement.getType(),
                     insertElement.getPricePer(),
@@ -179,7 +179,7 @@ public class ImportItems extends ImportPart {
                     updateElement.getItemName(),
                     updateElement.getArticle(),
                     updateElement.getDirectory(),
-                    updateElement.getDirectotyPath(),
+                    updateElement.getDirectoryPath(),
                     updateElement.getStatus(),
                     updateElement.getType(),
                     updateElement.getPricePer(),
@@ -255,7 +255,7 @@ public class ImportItems extends ImportPart {
                 String val_itemName = XMLHelper.getElementValue(element, "itemName");
                 String val_article = XMLHelper.getElementValue(element, "article");
                 String val_directory = XMLHelper.getElementValue(element, "directory");
-                String val_directotyPath = XMLHelper.getElementValue(element, "directotyPath");
+                String val_directoryPath = XMLHelper.getElementValue(element, "directoryPath");
                 String val_status = XMLHelper.getElementValue(element, "status");
                 String val_type = XMLHelper.getElementValue(element, "type");
                 String val_pricePer = XMLHelper.getElementValue(element, "pricePer");
@@ -286,7 +286,7 @@ public class ImportItems extends ImportPart {
                     this.writeInLog(this.logFile.ERROR_TYPE, "Для товара " + val_id + " (" + val_itemName + ") не найдено ни однйо записи в блоке prices.");
                 }
                 ItemElement item = new ItemElement(val_id, val_itemName,
-                        val_article, val_directory, val_directotyPath,
+                        val_article, val_directory, val_directoryPath,
                         val_status, val_type, val_pricePer, val_seviceCenter,
                         val_action, val_shown, val_toRemove, val_totalAmount,
                         val_minAmount, detailAmountValueList, pricesValueList);
@@ -382,8 +382,8 @@ public class ImportItems extends ImportPart {
             if (item.getDirectory() == null || item.getDirectory().equals("")) {
                 this.writeInLog(this.logFile.ERROR_TYPE, "У товара " + itemId + " (" + itemName + ") отсутствует значение у обязательного поля directory");
             }
-            if (item.getDirectotyPath() == null || item.getDirectotyPath().equals("")) {
-                this.writeInLog(this.logFile.ERROR_TYPE, "У товара " + itemId + " (" + itemName + ") отсутствует значение у обязательного поля directotyPath");
+            if (item.getDirectoryPath() == null || item.getDirectoryPath().equals("")) {
+                this.writeInLog(this.logFile.ERROR_TYPE, "У товара " + itemId + " (" + itemName + ") отсутствует значение у обязательного поля directoryPath");
             }
             if (item.getAction() == null || item.getAction() < 0) {
                 item.setAction(0);

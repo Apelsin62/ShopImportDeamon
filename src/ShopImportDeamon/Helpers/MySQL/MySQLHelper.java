@@ -98,7 +98,7 @@ public class MySQLHelper {
         try {
             Class.forName(this.jdbcClassName);
             try {
-                this.conn = DriverManager.getConnection(this.jdbs, this.user, this.password);
+                this.conn = DriverManager.getConnection(this.jdbs + "?useUnicode=true&characterEncoding=utf8", this.user, this.password);
             } catch (SQLException ex) {
                 Logger.getLogger(MySQLHelper.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -117,6 +117,10 @@ public class MySQLHelper {
         this.rs = null;
         try {
             this.stmt = this.conn.createStatement();
+            stmt.executeQuery("SET NAMES 'UTF8'");
+            stmt.executeQuery("SET CHARACTER SET 'UTF8'");
+            stmt.execute("set character set utf8");
+            stmt.execute("set names utf8");
             this.rs = this.stmt.executeQuery(sql);
         } catch (SQLException ex) {
             Logger.getLogger(MySQLHelper.class.getName()).log(Level.SEVERE, null, ex);
